@@ -1,5 +1,5 @@
 # AlgorithmStudy
-🔥**빡코딩 알고리즘 스터디 모임**🔥
+**🔥빡코딩 알고리즘 스터디 모임🔥**
 
 <br>
 
@@ -35,7 +35,7 @@
 
 <br>
 
-## **알고리즘 사이트** 👈
+## **알고리즘 사이트👈** 
 ### [프로그래머스](https://programmers.co.kr/learn/challenges?tab=all_challenges)<br>
 ### [백준알고리즘](https://www.acmicpc.net/)<br>
 ### [리트코드](https://leetcode.com/)<br>
