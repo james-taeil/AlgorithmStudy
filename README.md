@@ -16,7 +16,7 @@
 | 이름 | 깃헙 | 블로그 | 
 |---|---|---|
 | 유 |  |  |
-| 김 | [james-taeil](https://github.com/james-taeil) |  |
+| 김 | [james-taeil](https://github.com/james-taeil) | [Tstory](https://cozznam.tistory.com/) / [Velog](https://velog.io/@edan_3000) |
 |  |  |  |
 |  |  |  |
 
