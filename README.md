@@ -13,7 +13,7 @@
 
 ## **스터디 진행**
 
-### [스터디 노션](https://www.notion.so/loverduck97/Algorithm-Study-2d0c49b91c074f419830852c96306e6d)
+### 개인 블로그 및 깃헙
 
 | 이름 | 깃헙 | 블로그 | 
 |---|---|---|
@@ -21,6 +21,8 @@
 | 김 | [james-taeil](https://github.com/james-taeil) | [Tstory](https://cozznam.tistory.com/) / [Velog](https://velog.io/@edan_3000) |
 |  |  |  |
 |  |  |  |
+
+[스터디 노션](https://www.notion.so/loverduck97/Algorithm-Study-2d0c49b91c074f419830852c96306e6d)
 
 <br>
 
