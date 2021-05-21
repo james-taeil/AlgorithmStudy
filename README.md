@@ -21,6 +21,8 @@
 | Kim Tae-il | [james-taeil](https://github.com/james-taeil) | [코즐남](https://cozznam.tistory.com/) / [Velog](https://velog.io/@edan_3000) |
 |  |  |  |
 |  |  |  |
+|  |  |  |
+|  |  |  |
 
 [스터디 노션](https://www.notion.so/loverduck97/Algorithm-Study-2d0c49b91c074f419830852c96306e6d)
 
