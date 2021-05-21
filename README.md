@@ -18,12 +18,12 @@
 | 이름 | 깃헙 | 블로그 | 
 |---|---|---|
 | Yoo So-yeon | [So-yeon](https://github.com/loverduck) | [살려조오,,](https://codingduck.tistory.com/)  |
-| Kim Tae-il | [james-taeil](https://github.com/james-taeil) | [코즐남](https://cozznam.tistory.com/) / [Velog](https://velog.io/@edan_3000) |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
+| Kim Tae-il | [Tae-il](https://github.com/james-taeil) | [코즐남](https://cozznam.tistory.com/) / [Velog](https://velog.io/@edan_3000) |
+| Han Sungmin | [Sung-min](https://github.com/ElleryVernon) | [Dai](https://velog.io/@tmpks5) |
+| Park Siwoo | [Si-woo](https://github.com/SiwooPak) | [SiWoo](https://velog.io/@dev_shu) |
+| Choi Donghyun | [Dong-hyun](https://github.com/aarDong-hyunon-93 ) |  |
+| Kim Seyoon | [Sey-oon](https://github.com/seyoonkim48) | [oon](https://velog.io/@yoon63) |
+| Jeon won-jae | [won-jae](https://github.com/coriander345) | [won-jae](https://coriander345.github.io/) |
 
 [스터디 노션](https://www.notion.so/loverduck97/Algorithm-Study-2d0c49b91c074f419830852c96306e6d)
 
