@@ -21,7 +21,7 @@
 | Kim Tae-il | [Tae-il](https://github.com/james-taeil) | [코즐남](https://cozznam.tistory.com/) / [Velog](https://velog.io/@edan_3000) |
 | Han Sungmin | [Sung-min](https://github.com/ElleryVernon) | [Dai](https://velog.io/@tmpks5) |
 | Park Siwoo | [Si-woo](https://github.com/SiwooPak) | [SiWoo](https://velog.io/@dev_shu) |
-| Choi Donghyun | [Dong-hyun](https://github.com/aarDong-hyunon-93 ) |  |
+| Choi Donghyun | [Dong-hyun](https://github.com/aarDong-hyunon-93 ) | [아론](https://velog.io/@aaron_93) |
 | Kim Seyoon | [Sey-oon](https://github.com/seyoonkim48) | [oon](https://velog.io/@yoon63) |
 | Jeon won-jae | [won-jae](https://github.com/coriander345) | [won-jae](https://coriander345.github.io/) |
 
