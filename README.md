@@ -23,6 +23,7 @@
 |  |  |  |
 |  |  |  |
 |  |  |  |
+|  |  |  |
 
 [스터디 노션](https://www.notion.so/loverduck97/Algorithm-Study-2d0c49b91c074f419830852c96306e6d)
 
@@ -49,6 +50,6 @@
 <br>
 
 ## **알고리즘 사이트👈** 
-### [프로그래머스](https://programmers.co.kr/learn/challenges?tab=all_challenges)<br>
-### [백준알고리즘](https://www.acmicpc.net/)<br>
-### [리트코드](https://leetcode.com/)<br>
+### [Programmers](https://programmers.co.kr/learn/challenges?tab=all_challenges)<br>
+### [BAEHJOON](https://www.acmicpc.net/)<br>
+### [LEETCODE](https://leetcode.com/)<br>
