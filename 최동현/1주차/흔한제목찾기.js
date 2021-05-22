@@ -17,7 +17,6 @@ function solution(l,r){
     return answer;
 }
 
-console.log(solution(1,20))
 
 
 
