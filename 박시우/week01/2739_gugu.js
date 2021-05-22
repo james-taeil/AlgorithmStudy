@@ -10,7 +10,7 @@ let input = fs.readFileSync('/dev/stdin').toString().split(' ');
 // 출력
 // 출력형식과 같게 N*1부터 N*9까지 출력한다.
 
-let n = Number(input);
+let n = Number(input); 
 
 function gugu(n) {
     //입력받은 숫자가 1<=n<=9 이여야 함.

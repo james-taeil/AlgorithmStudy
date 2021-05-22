@@ -28,6 +28,6 @@ function leafYear(year) {
     }
 
     return console.log(result); 
-}
+} 
 
 leafYear(year);
