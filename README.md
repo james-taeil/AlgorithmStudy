@@ -24,6 +24,7 @@
 | Choi Donghyun | [Dong-hyun](https://github.com/aarDong-hyunon-93 ) | [아론](https://velog.io/@aaron_93) |
 | Kim Seyoon | [Se-yoon](https://github.com/seyoonkim48) | [Se-yoon](https://velog.io/@yoon63) |
 | Jeon won-jae | [won-jae](https://github.com/coriander345) | [won-jae](https://coriander345.github.io/) |
+| Kim Mi-jeong | [Mi-jeong](https://github.com/11210111 ) | [Mi-jeong](https://velog.io/@11210111) |
 
 [스터디 노션](https://www.notion.so/loverduck97/Algorithm-Study-2d0c49b91c074f419830852c96306e6d)
 
