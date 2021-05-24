@@ -9,4 +9,4 @@ function Year(num, num2){
     }
     return leapYears
 }
-Year(1994, 2400)
+Year(1994, 2400) 
