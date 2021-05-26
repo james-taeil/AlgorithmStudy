@@ -19,13 +19,14 @@
 |---|---|---|
 | Yoo So-yeon | [So-yeon](https://github.com/loverduck) | [살려조오,,](https://codingduck.tistory.com/)  |
 | Kim Tae-il | [Tae-il](https://github.com/james-taeil) | [코즐남](https://cozznam.tistory.com/) / [Velog](https://velog.io/@edan_3000) |
-| Han Sungmin | [Sung-min](https://github.com/ElleryVernon) | [Dai](https://velog.io/@tmpks5) |
+| Han Sung-min | [Sung-min](https://github.com/ElleryVernon) | [Dai](https://velog.io/@tmpks5) |
 | Park Siwoo | [Si-woo](https://github.com/SiwooPak) | [SiWoo](https://velog.io/@dev_shu) |
-| Choi Donghyun | [Dong-hyun](https://github.com/aarDong-hyunon-93 ) | [아론](https://velog.io/@aaron_93) |
-| Kim Seyoon | [Se-yoon](https://github.com/seyoonkim48) | [Se-yoon](https://velog.io/@yoon63) |
+| Choi Dong-hyun | [Dong-hyun](https://github.com/aarDong-hyunon-93 ) | [아론](https://velog.io/@aaron_93) |
+| Kim Se-yoon | [Se-yoon](https://github.com/seyoonkim48) | [Se-yoon](https://velog.io/@yoon63) |
 | Jeon won-jae | [won-jae](https://github.com/coriander345) | [won-jae](https://coriander345.github.io/) |
 | Kim Mi-jeong | [Mi-jeong](https://github.com/11210111 ) | [Mi-jeong](https://velog.io/@11210111) |
-
+| Kim Eun-hyuk | [Eun-hyuk](https://github.com/steel-hyuk) | [Eun-hyuk](https://velog.io/@steel_hyuk___2) |
+|  |  |  |
 [스터디 노션](https://www.notion.so/loverduck97/Algorithm-Study-2d0c49b91c074f419830852c96306e6d)
 
 <br>
