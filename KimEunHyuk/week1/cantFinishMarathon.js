@@ -1,15 +1,26 @@
-function solution(participant, completion) {
-    let answer = '';
-    
-    for (let i=0; i<participant.length; i++){
-        for (let j=0; j<completion.length; j++){
-            if (participant[i]===completion[j]){
-                participant.splice(i--, 1);
-                completion.splice(j--,1);
-                break;
+function sort(array){
+    for (let i=0; i<array.length-1;i++){
+        for (let j=i+1; j<array.length;j++){
+            if (array[j] < array[i]){
+                let tmp = array[j];
+                array[j] = array[i];
+                array[i] = tmp;
             }
         }
     }
-    answer = participant[0];
+    return array;
+}
+
+function solution(participant, completion) {
+    let answer = '';
+    let part = sort(participant);
+    let comp = sort(completion);
+    
+    for (let i=0; i<part.length; i++) {
+        if (part[i] !== comp[i]){
+            answer = part[i];
+            break;
+        }
+    }
     return answer;
 }
