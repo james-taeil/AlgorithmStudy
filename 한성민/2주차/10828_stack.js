@@ -1,14 +1,5 @@
 const fs = require('fs');
-const input = [
-    '14',
-    'push 1', 'push 2',
-    'top',    'size',
-    'empty',  'pop',
-    'pop',    'pop',
-    'size',   'empty',
-    'pop',    'push 3',
-    'empty',  'top'
-  ]
+const input = fs.readFileSync('/dev/stdin').toString().split('\n');
 input.shift();
 
 class Stack {
@@ -53,7 +44,7 @@ const stack = new Stack();
 
 const anwser = input.reduce((acc,current) => {
     if (current.includes("push")) {
-        let arg = current.split(' ')[1];
+        const arg = current.split(' ')[1];
         console.log(`arg: ${arg}`)
         stack.push(arg);
     } else if (current.includes("pop")) {
