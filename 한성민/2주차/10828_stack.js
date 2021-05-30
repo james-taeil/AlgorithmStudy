@@ -21,7 +21,6 @@ class Stack {
         if (arg === undefined) {
             return false;
         }
-
         this.stack[this.index++] = arg;
     }
 
@@ -29,9 +28,7 @@ class Stack {
         if (this.index <= 0) {
             return -1;
         }
-
         const result = this.stack[--this.index];
-
         return result;
     }
 
@@ -47,9 +44,7 @@ class Stack {
         if (this.index <= 0) {
             return -1;
         }
-
         const result = this.stack[this.index - 1];
-
         return result;
     }
 }
