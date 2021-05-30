@@ -8,7 +8,7 @@
 ### 언어 : JavaScript
   - 1주일에 한 주제씩 선정
   - 1주일 주제 선정
-  - 코딩 스타일 : google js 스타일 가이드
+  - 코딩 스타일 : [google js 스타일 가이드](https://steemit.com/wdev/@wonsama/javascript)
 <br>
 
 ## **스터디 진행**
