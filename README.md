@@ -24,7 +24,6 @@
 | Choi Dong-hyun | [Dong-hyun](https://github.com/aarDong-hyunon-93 ) | [아론](https://velog.io/@aaron_93) |
 | Kim Se-yoon | [Se-yoon](https://github.com/seyoonkim48) | [Se-yoon](https://velog.io/@yoon63) |
 | Jeon won-jae | [won-jae](https://github.com/coriander345) | [won-jae](https://coriander345.github.io/) |
-| Kim Mi-jeong | [Mi-jeong](https://github.com/11210111 ) | [Mi-jeong](https://velog.io/@11210111) |
 | Kim Eun-hyuk | [Eun-hyuk](https://github.com/steel-hyuk) | [Eun-hyuk](https://velog.io/@steel_hyuk___2) |
 | Kim Yeon-jin | [Yeon-jin](https://github.com/noodlejin) | [Yeon-jin](https://velog.io/@noodlejin) |
 
