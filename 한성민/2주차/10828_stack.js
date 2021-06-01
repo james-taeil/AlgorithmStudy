@@ -45,7 +45,6 @@ const stack = new Stack();
 const anwser = input.reduce((acc,current) => {
     if (current.includes("push")) {
         const arg = current.split(' ')[1];
-        console.log(`arg: ${arg}`)
         stack.push(arg);
     } else if (current.includes("pop")) {
         acc += stack.pop() + "\n";
