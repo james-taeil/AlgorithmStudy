@@ -1,6 +1,3 @@
-// let input = require('fs').readFileSync('/dev/stdin').toString().split('\n');
-
-
 class Stack {
     constructor () {
         this.stack = [];
@@ -17,6 +14,9 @@ class Stack {
     }
 
     pop() {
+        if (this.stack.length === 0) {
+            return -1
+        }
         const popNum = this.stack[this.size - 1];
         this.stack = this.stack.slice(0, -1);
         this.size--
@@ -42,14 +42,31 @@ class Stack {
     }
 };
 
+let input = require('fs').readFileSync('/dev/stdin').toString().split('\n');
 const addStack = new Stack();
+let step = parseInt(input[0])
+let answer = '';
 
-addStack.push(5);
-addStack.push(4);
-addStack.push(3);
-console.log(addStack.pop());
-console.log(addStack.empty());
-console.log(addStack.top());
+for (let i = 1; i <= step; i++) {
+    let command = (input[i]).trim().split(' ');
+    if (command[0] === 'push') {
+        addStack.push(parseInt(command[1]));
+
+    } else if (command[0] === 'size') {
+        answer += addStack.size + '\n';
+
+    } else if (command[0] === 'pop') {
+        answer += addStack.pop() + '\n';
+
+    } else if (command[0] === 'top') {
+        answer += addStack.top() + '\n';
+
+    } else if (command[0] === 'empty') {
+        answer += addStack.empty() + '\n';
+    }
+};
+
+console.log(answer);
 
 
 // ! 구현 실패
@@ -102,4 +119,3 @@ console.log(addStack.top());
 //     console.log(POP());
 //   }
 // };
-
