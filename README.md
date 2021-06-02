@@ -25,7 +25,6 @@
 | Kim Se-yoon | [Se-yoon](https://github.com/seyoonkim48) | [Se-yoon](https://velog.io/@yoon63) |
 | Jeon won-jae | [won-jae](https://github.com/coriander345) | [won-jae](https://coriander345.github.io/) |
 | Kim Eun-hyuk | [Eun-hyuk](https://github.com/steel-hyuk) | [Eun-hyuk](https://velog.io/@steel_hyuk___2) |
-| Kim Yeon-jin | [Yeon-jin](https://github.com/noodlejin) | [Yeon-jin](https://velog.io/@noodlejin) |
 
 [스터디 노션](https://www.notion.so/loverduck97/Algorithm-Study-2d0c49b91c074f419830852c96306e6d)
 
