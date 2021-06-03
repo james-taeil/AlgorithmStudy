@@ -22,7 +22,6 @@
 | Han Sung-min | [Sung-min](https://github.com/ElleryVernon) | [Dai](https://velog.io/@tmpks5) |
 | Park Siwoo | [Si-woo](https://github.com/SiwooPak) | [SiWoo](https://velog.io/@dev_shu) |
 | Choi Dong-hyun | [Dong-hyun](https://github.com/aarDong-hyunon-93 ) | [아론](https://velog.io/@aaron_93) |
-| Kim Se-yoon | [Se-yoon](https://github.com/seyoonkim48) | [Se-yoon](https://velog.io/@yoon63) |
 | Jeon won-jae | [won-jae](https://github.com/coriander345) | [won-jae](https://coriander345.github.io/) |
 | Kim Eun-hyuk | [Eun-hyuk](https://github.com/steel-hyuk) | [Eun-hyuk](https://velog.io/@steel_hyuk___2) |
 
