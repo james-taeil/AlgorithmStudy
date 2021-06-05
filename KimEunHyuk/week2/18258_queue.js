@@ -2,28 +2,28 @@ const fs = require('fs');
 const input = fs.readFileSync('/dev/stdin').toString().split(' ');
 
 const num = Number(input[0]);
-const arr = [];
+const array = [];
 let str = '';
 
-function push(array, n){
+function push(n){
   array[array.length] = n;
 }
 
-function pop(array){
+function pop(){
   if (array.length === 0){
     str += '-1\n';
   }
   else {
-    str += `${array[0]}`;
-    array = array.splice(0,1);
+    str += `${array[0]}\n`;
+    array.splice(0,1);
   }
 }
 
-function size(array){
+function size(){
     str += `${array.length}\n`;
 }
 
-function empty(array){
+function empty(){
     if (array.length === 0){
         str += '1\n';
     }
@@ -32,7 +32,7 @@ function empty(array){
     }
 }
 
-function front(array){
+function front(){
     if (array.length === 0){
         str += '-1\n';
     }
@@ -41,8 +41,8 @@ function front(array){
     }
 }
 
-function back(array){
-  if (arr.length === 0){
+function back(){
+  if (array.length === 0){
     str += '-1\n';
   }
   else {
