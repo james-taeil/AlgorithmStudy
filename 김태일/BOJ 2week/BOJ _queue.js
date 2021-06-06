@@ -17,7 +17,7 @@ class Queue {
         if (this.size === 0) {
             return -1;
         } 
-        const popNum = this.queue[0];
+        let popNum = this.queue[0];
         this.queue = this.queue.slice(1);
         this.size--;
         return popNum;
