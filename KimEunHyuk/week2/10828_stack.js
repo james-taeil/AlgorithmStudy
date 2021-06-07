@@ -14,7 +14,7 @@ function pop(){
     str += '-1\n';
   }
   else {
-    str += `${array[array.length-1]}`;
+    str += `${array[array.length-1]}\n`;
     array.splice(array.length-1,1);
   }
 }
