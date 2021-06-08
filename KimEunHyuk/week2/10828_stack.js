@@ -1,66 +1,66 @@
 const fs = require('fs');
-const input = fs.readFileSync('/dev/stdin').toString().split(' ');
+const input = fs.readFileSync('/dev/stdin').toString().split('\n');
+input.shift();
 
-const num = Number(input[0]);
-const array = [];
-let str = '';
-
-function push(n){
-  array[array.length] = n;
-}
-
-function pop(){
-  if (array.length === 0){
-    str += '-1\n';
+class Stack {
+  constructor () {
+    this.stack = [];
   }
-  else {
-    str += `${array[array.length-1]}\n`;
-    array.splice(array.length-1,1);
+
+  push(num) {
+    if (num === undefined){
+      return false;
+    }
+    this.stack[this.stack.length] = num;
+  }
+
+  pop() {
+    if (this.stack.length === 0) {
+      return -1;
+    }
+    let popedNum = this.stack[this.stack.length-1];
+    this.stack.splice(this.stack.length-1, 1);
+
+    return popedNum;
+  }
+
+  size() {
+    return this.stack.length;
+  }
+
+  empty() {
+    return this.stack.length ? 0 : 1;
+  }
+  
+  top() {
+    if (this.stack.length <= 0) {
+      return -1;
+    }
+    let topNum = this.stack[this.stack.length-1];
+    return topNum;
   }
 }
 
-function size(){
-    str += `${array.length}\n`;
-}
+const stack = new Stack();
 
-function empty(){
-    if (array.length === 0){
-        str += '1\n';
-    }
-    else {
-        str += '0\n';
-    }
-}
-
-function topp(){
-    if (array.length === 0){
-        str += '-1\n';
-    }
-    else {
-        str += `${array[array.length-1]}\n`;
-    }
-}
-
-function stack(num) {
-  for (let i=1; i<=num; i++){
-    let toDo = input[i].split(' ');
-    if (toDo[0] === 'push'){
-      push(arr, todo[1]);
-    }
-    else if (toDo[0] === 'pop'){
-      pop(arr);
-    }
-    else if (toDo[0] === 'size'){
-      size(arr);
-    }
-    else if (toDo[0] === 'empty'){
-      empty(arr);
-    }
-    else if (toDo[0] === 'top'){
-      topp(arr);
-    }
+const str = input.reduce((pre, cur) => {
+  if (cur.includes('push')){
+    const num = cur.split(' ')[1];
+    stack.push(num);
   }
-  console.log(str);
-}
+  else if (cur.includes('pop')) {
+    pre += stack.pop() + "\n";
+  }
+  else if (cur.includes('size')) {
+    pre += stack.size() + "\n";
+  }
+  else if (cur.includes('empty')) {
+    pre += stack.empty() + "\n";
+  }
+  else if (cur.includes('top')) {
+    pre += stack.top() + "\n";
+  }
+  return pre;
+}, '');
 
-stack(num);
+console.log(str);
