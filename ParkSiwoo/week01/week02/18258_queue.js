@@ -18,7 +18,9 @@ const rl = readline.Interface({
 
 class Node {
   constructor(value) {
+    //노드가 저장하는 값
     this.value = value;
+    //대기열의 다음 노드에 대한 링크. 처음엔 노드가 없기에 null
     this.next = null;
   }
 }
@@ -33,14 +35,15 @@ class Queue {
   enqueue(value) {
     const node = new Node(value);
 
-    if (this.first) {
-      this.last.next = node;
-      this.last = node;
-    } else {
-      this.first = node;
+    if (this.first) { // 첫번째 노드가 있는 경우
+      this.last.next = node; //last(rear) 뒤에 생성된 노드를 추가
+      this.last = node; // 그 추가된 노드가 마지막 노드
+    } else { // 대기열의 노드가 없는 경우
+      // 생성된 노드는 first(front)이면서 last(rear)가 됨.
+      this.first = node; 
       this.last = node;
     }
-
+    // 큐의  1증가
     this.length++;
   }
 
