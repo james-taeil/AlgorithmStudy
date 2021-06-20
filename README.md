@@ -19,7 +19,6 @@
 |---|---|---|
 | Yoo So-yeon | [So-yeon](https://github.com/loverduck) | [살려조오,,](https://codingduck.tistory.com/)  |
 | Kim Tae-il | [Tae-il](https://github.com/james-taeil) | [코즐남](https://cozznam.tistory.com/) / [Velog](https://velog.io/@edan_3000) |
-| Han Sung-min | [Sung-min](https://github.com/ElleryVernon) | [Dai](https://velog.io/@tmpks5) |
 | Park Siwoo | [Si-woo](https://github.com/SiwooPak) | [SiWoo](https://velog.io/@dev_shu) |
 | Choi Dong-hyun | [Dong-hyun](https://github.com/aarDong-hyunon-93 ) | [아론](https://velog.io/@aaron_93) |
 | Jeon won-jae | [won-jae](https://github.com/coriander345) | [won-jae](https://coriander345.github.io/) |
@@ -65,4 +64,7 @@
 | 2021.05.30 ~ 2021.06.06 | [BOJ 스택 #10828](https://www.acmicpc.net/problem/10828) |
 | 2021.05.30 ~ 2021.06.06 | [BOJ 큐 #18258](https://www.acmicpc.net/problem/18258) |
 |추가 문제 풀이 / 스택[BOJ 괄호 #9012](https://www.acmicpc.net/problem/9012) / [BOJ 오큰수 #17298](https://www.acmicpc.net/problem/17298) | 큐,덱 [BOJ 요세푸스 문제0 #11866](https://www.acmicpc.net/problem/11866) / [BOJ AC #5430](https://www.acmicpc.net/problem/5430) |
+| 2021.06.14 ~ 2021.06.20 | [PROGRAMMERS #가장 먼 노드](https://programmers.co.kr/learn/courses/30/lessons/49189) |
+| 2021.06.14 ~ 2021.06.20 | [LeetCode #Same Tree](https://leetcode.com/problems/same-tree/) |
+| 2021.06.14 ~ 2021.06.20 | [LeetCode #Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) |
 

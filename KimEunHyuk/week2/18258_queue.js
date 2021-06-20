@@ -1,78 +1,76 @@
 const fs = require('fs');
-const input = fs.readFileSync('/dev/stdin').toString().split(' ');
+const input = fs.readFileSync('/dev/stdin').toString().split('\n');
+input.shift();
 
-const num = Number(input[0]);
-const array = [];
-let str = '';
-
-function push(n){
-  array[array.length] = n;
-}
-
-function pop(){
-  if (array.length === 0){
-    str += '-1\n';
+class Queue {
+  constructor () {
+    this.queue = [];
   }
-  else {
-    str += `${array[0]}\n`;
-    array.splice(0,1);
+
+  push(num) {
+    if (num === undefined){
+      return false;
+    }
+    this.queue[this.queue.length] = num;
   }
-}
 
-function size(){
-    str += `${array.length}\n`;
-}
+  pop() {
+    if (this.queue.length === 0) {
+      return -1;
+    }
+    let popedNum = this.queue[0];
+    this.queue.splice(0, 1);
 
-function empty(){
-    if (array.length === 0){
-        str += '1\n';
-    }
-    else {
-        str += '0\n';
-    }
-}
-
-function front(){
-    if (array.length === 0){
-        str += '-1\n';
-    }
-    else {
-        str += `${array[array.length-1]}\n`;
-    }
-}
-
-function back(){
-  if (array.length === 0){
-    str += '-1\n';
+    return popedNum;
   }
-  else {
-    str += `${array[0]}\n`;
+
+  size() {
+    return this.queue.length;
   }
+
+  empty() {
+    return this.queue.length ? 0 : 1;
+  }
+  
+  front() {
+    if (this.queue.length <= 0) {
+      return -1;
+    }
+    let frontNum = this.queue[this.queue.length-1];
+    return frontNum;
+  }
+
+  back() {
+    if (this.queue.length <=0) {
+      return -1;
+    }
+    let backNum = this.queue[0];
+    return backNum;
 }
 
-function queue(num) {
-  for (let i=1; i<=num; i++){
-    let toDo = input[i].split(' ');
-    if (toDo[0] === 'push'){
-      push(arr, todo[1]);
-    }
-    else if (toDo[0] === 'pop'){
-      pop(arr);
-    }
-    else if (toDo[0] === 'size'){
-      size(arr);
-    }
-    else if (toDo[0] === 'empty'){
-      empty(arr);
-    }
-    else if (toDo[0] === 'front'){
-      front(arr);
-    }
-    else if (toDo[0] === 'back'){
-      back(arr);
-    }
-  }
-  console.log(str);
-}
+const queue = new Queue();
 
-queue(num);
+const str = input.reduce((pre, cur) => {
+  if (cur.includes('push')){
+    const num = cur.split(' ')[1];
+    queue.push(num);
+  }
+  else if (cur.includes('pop')) {
+    pre += queue.pop() + "\n";
+  }
+  else if (cur.includes('size')) {
+    pre += queue.size() + "\n";
+  }
+  else if (cur.includes('empty')) {
+    pre += queue.empty() + "\n";
+  }
+  else if (cur.includes('front')) {
+    pre += queue.front() + "\n";
+  }
+  else if (cur.includes('back')) {
+    pre += queue.back() + "\n";
+  }
+  return pre;
+}, '');
+
+console.log(str);
