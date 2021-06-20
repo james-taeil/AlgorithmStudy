@@ -1,32 +1,32 @@
-function solution(n, edge) {
-    let answer = 0;
-    const obj = {};
-    let firstNode, secondNode;
+// function solution(n, edge) {
+//     let answer = 0;
+//     const obj = {};
+//     let firstNode, secondNode;
 
-    // 최대값의 버텍스만큼의 배열 만들기
-    for (let i = 1; i <= n; i++) {
-        obj[i] = [];
-    }
+//     // 최대값의 버텍스만큼의 배열 만들기
+//     for (let i = 1; i <= n; i++) {
+//         obj[i] = [];
+//     }
 
-    // 서로 간선 값 넣어주기
-    for (let i = 0; i < edge.length; i++) {
-        firstNode = edge[i][0];
-        secondNode = edge[i][1];
-        obj[firstNode].push(secondNode);
-        obj[secondNode].push(firstNode);
-    }
+//     // 서로 간선 값 넣어주기
+//     for (let i = 0; i < edge.length; i++) {
+//         firstNode = edge[i][0];
+//         secondNode = edge[i][1];
+//         obj[firstNode].push(secondNode);
+//         obj[secondNode].push(firstNode);
+//     }
 
-    // 방문 정점 표시
-    const visited = {}
+//     // 방문 정점 표시
+//     const visited = {}
 
-    for (let v = 0; v <= n; i++) {
-        if(!visited[v]) {
-            dfs(obj, v, visited);
-        }
-    }
+//     for (let v = 0; v <= n; i++) {
+//         if(!visited[v]) {
+//             dfs(obj, v, visited);
+//         }
+//     }
 
-    return obj;
-}
+//     return obj;
+// }
 
 // 깊이 우선 탐색
 function dfs (obj, v, visited) {
@@ -36,6 +36,32 @@ function dfs (obj, v, visited) {
             dfs(obj, obj[v][i], visited);
         }
     }
+}
+
+
+
+// BFS로 하는게 맞는거 같다.
+
+// BFS 구현
+function bfs (graph, start) {
+    let queue = [start];
+    let visited = [];
+
+    while(queue.length !== 0) {
+        v = queue.shift();
+
+        if (!visited.includes(v)) {
+            visited.push(v);
+            queue = [...queue, ...graph[v]]
+        }        
+    }
+    return visited;
+}
+
+
+
+function solution(n, edge) {
+    return bfs(edge, 1);
 }
 
 n = 6;
