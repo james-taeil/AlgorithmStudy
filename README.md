@@ -59,14 +59,18 @@
 ### 1주차
 | 날짜 | 문제이름 | 
 |---|---|
+|1주차|
 | 2021.05.21 ~ 2021.05.30 | [BOJ 윤년 #2753](https://www.acmicpc.net/problem/2753) |
 | 2021.05.21 ~ 2021.05.30 | [BOJ 구구단 #2739](https://www.acmicpc.net/problem/2739) |
+|2주차|
 | 2021.05.30 ~ 2021.06.06 | [BOJ 스택 #10828](https://www.acmicpc.net/problem/10828) |
 | 2021.05.30 ~ 2021.06.06 | [BOJ 큐 #18258](https://www.acmicpc.net/problem/18258) |
 |추가 문제 풀이 / 스택[BOJ 괄호 #9012](https://www.acmicpc.net/problem/9012) / [BOJ 오큰수 #17298](https://www.acmicpc.net/problem/17298) | 큐,덱 [BOJ 요세푸스 문제0 #11866](https://www.acmicpc.net/problem/11866) / [BOJ AC #5430](https://www.acmicpc.net/problem/5430) |
+|3주차|
 | 2021.06.14 ~ 2021.06.20 | [PROGRAMMERS #가장 먼 노드](https://programmers.co.kr/learn/courses/30/lessons/49189) |
 | 2021.06.14 ~ 2021.06.20 | [LeetCode #Same Tree](https://leetcode.com/problems/same-tree/) |
 | 2021.06.14 ~ 2021.06.20 | [LeetCode #Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) |
+|4주차|
 | 2021.06.21 ~ 2021.06.27 | [LeetCode #797 All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/) |
 | 2021.06.21 ~ 2021.06.27 | [LeetCode #997 Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/) |
 | 2021.06.21 ~ 2021.06.27 | [PROGRAMMERS #순위](https://programmers.co.kr/learn/courses/30/lessons/49191/) |
