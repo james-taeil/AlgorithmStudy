@@ -19,7 +19,6 @@
 |---|---|---|
 | Yoo So-yeon | [So-yeon](https://github.com/loverduck) | [살려조오,,](https://codingduck.tistory.com/)  |
 | Kim Tae-il | [Tae-il](https://github.com/james-taeil) | [코즐남](https://cozznam.tistory.com/) / [Velog](https://velog.io/@edan_3000) |
-| Han Sung-min | [Sung-min](https://github.com/ElleryVernon) | [Dai](https://velog.io/@tmpks5) |
 | Park Siwoo | [Si-woo](https://github.com/SiwooPak) | [SiWoo](https://velog.io/@dev_shu) |
 | Choi Dong-hyun | [Dong-hyun](https://github.com/aarDong-hyunon-93 ) | [아론](https://velog.io/@aaron_93) |
 | Jeon won-jae | [won-jae](https://github.com/coriander345) | [won-jae](https://coriander345.github.io/) |
