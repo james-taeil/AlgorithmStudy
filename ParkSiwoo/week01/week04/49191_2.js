@@ -34,7 +34,7 @@ function solution(n, results) {
     for (let i = 1; i <= n; i++){
         let cnt = 0;
         for(var j = 1; j <= n; j++)
-            if(arr[i][j] !== Infinity || arr[j][i] !== Infinity)
+            if(arr[i][j] === 1 || arr[j][i] === 1)
                 cnt++;
         if(cnt === n-1)
             result++;
