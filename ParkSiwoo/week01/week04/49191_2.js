@@ -1,5 +1,9 @@
-// 참고: 동빈좌~~ https://www.youtube.com/watch?v=9574GHxCbKc&t=790s
-// n-1의 수와 count의 값이 값다면
+// 참고: 동빈좌~~ https://www.youtube.com/watch?v=9574GHxCbKc&t=790s(플로이드 와샬)
+// 플로이드 와샬 알고리즘은 모든 정점의 최단 경로
+// 거쳐가는 v를 중심으로 처리
+// if (출발~중간) + (중간~도착) < (출발~도착)
+// (출발~도착) = (출발~중간) + (중간~도착)
+
 function solution(n, results) {
     // 모든 경로의 최단거리가 정해진 노드의 수
     let result = 0;
@@ -13,24 +17,26 @@ function solution(n, results) {
         if(i>0)  arr[i][i] = 0;
     })
     
-    // results 배열을 arr에 할당
+    // 1차원 배열 results의 index값을 2차원 배열 arr의 인덱스로 해주고 값은 1로. 
     results.forEach(([x,y]) => arr[x][y] = 1);
    
-    // (출발~중간) + (중간~도착) < (출발~도착)
-    // (출발~도착) = (출발~중간) + (중간~도착)
-    // 거쳐가는 노드
+    // 중간v
     for (let i = 1; i <= n; i++) {
-        // 출발노드
+        // 출발v
         for (let j = 1; j <= n; j++) {
-            // 도착 노드
+            // 중간v와 출발v가 같은 경우 다음, index로
+            if(i === j) continue;
+            // 도착v
             for (let k = 1; k <= n; k++) {
+                // 중간v랑 도착v가 같거나 출발v랑 도착v가 같은 경우, 다음 index로 
+                if(i === k || j === k) continue
                 if (arr[j][i] + arr[i][k] < arr[j][k]) 
                     arr[j][k] = 1;
             }
         }
     }
 
-    // 가중치가 1인경우는 카운트 1증가, 그리고 총카운트가 n-1인 경우 result++
+    // 가중치가 1인경우는 카운트 1증가, 그리고 총카운트가 n-1와 같은 경우 result++
     for (let i = 1; i <= n; i++){
         let cnt = 0;
         for(var j = 1; j <= n; j++)
