@@ -2,7 +2,7 @@
  * @param {number[][]} graph
  * @return {number[][]}
  */
-// bfs or dfs
+
  // 각 경로를 담아둘 배열
     let res = []
     // 경로를 담아둘 임시배열
