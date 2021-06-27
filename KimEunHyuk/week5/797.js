@@ -2,21 +2,21 @@ var allPathsSourceTarget = function(graph) {
     
     const path = [0];
     const result = [];
-    const dfs = (node) => {
+    const func = (node) => {
         
         if (node === graph.length -1){
-            result.push(path.slice(0));
+            result.push([...path]);
         }
         else {
             for (let el of graph[node]){
                 path.push(el);
-                dfs(el);
+                func(el);
                 path.pop();
             }
         }
     }
     
-    dfs(0);
+    func(0);
     
     return result;
 };
