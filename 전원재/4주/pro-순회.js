@@ -1,7 +1,8 @@
 function solution(n, results) {
     let answer = 0;
-    let total = {}
+
     let front ={}
+
     let back ={}
     results.map(el=>{
         if(front[el[0]]===undefined){
@@ -15,7 +16,8 @@ function solution(n, results) {
         }
         back[el[1]].push(el[0])
     })
-
+  console.log(front) // { '1': [ 2 ], '2': [ 5 ], '3': [ 2 ], '4': [ 3, 2 ] } 이긴 숫자가 키
+   console.log(back) // { '2': [ 4, 3, 1 ], '3': [ 4 ], '5': [ 2 ] } 진 숫자가 키
     
     
     for(let a in front){
@@ -34,24 +36,28 @@ function solution(n, results) {
         }
       }
     }
-   
-    
+    console.log(front) // { '1': [ 2, 5 ], '2': [ 5 ], '3': [ 2, 5 ], '4': [ 3, 2, 5 ] }
+                        // 그 숫자가 서열에 따라 이길 수 있는 모든 경우
+
+    console.log(back) //{ '2': [ 4, 3, 1 ], '3': [ 4 ], '5': [ 2, 4, 3, 1 ] }
+                        // 그 숫자가 서열에 따라 질 수 있는 모든 경우
+
     let winner =true
     let loser=true
-while(winner){
+while(winner){             // 배열의 value.length가 n-1로 시작해서 점점 낮아지는 경우
   winner = false
     for(let a in front){
       if(front[a].length===n-1){
        
-        answer++
-        delete front[a]
-        n=n-l
+        answer++                      // 그리고 그 때 숫자를 만족하면
+        delete front[a]             // 그 요소를 제거 하고 중복되면 안 되니까
+        n=n-1               // -1을 해서 순차적으로 낮아지면서 서열을 매길 수 있게 
         winner = true
       }  
       
     }
 }
-    while(loser){
+    while(loser){           
     for(let a in back){
       loser = false
       
