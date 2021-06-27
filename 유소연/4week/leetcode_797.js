@@ -1,6 +1,6 @@
 var allPathsSourceTarget = function(graph) {
     const lastNode = graph.length - 1;
-    paths = [];
+    const paths = [];
       
     const dfs = (start, end, path) => {
           
