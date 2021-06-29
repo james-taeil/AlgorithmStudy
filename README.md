@@ -23,6 +23,7 @@
 | Choi Dong-hyun | [Dong-hyun](https://github.com/aarDong-hyunon-93 ) | [아론](https://velog.io/@aaron_93) |
 | Jeon won-jae | [won-jae](https://github.com/coriander345) | [won-jae](https://coriander345.github.io/) |
 | Kim Eun-hyuk | [Eun-hyuk](https://github.com/steel-hyuk) | [Eun-hyuk](https://velog.io/@steel_hyuk___2) |
+| Kim Min-jae | [Min-jae](https://github.com/minjman2659) | [Min-jae](https://www.notion.so/minjman2659/16d5cc5769c84f4aacb11952a3625dfc) |
 
 [스터디 노션](https://www.notion.so/loverduck97/Algorithm-Study-2d0c49b91c074f419830852c96306e6d)
 
@@ -74,5 +75,9 @@
 | 2021.06.21 ~ 2021.06.27 | [LeetCode #797 All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/) |
 | 2021.06.21 ~ 2021.06.27 | [LeetCode #997 Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/) |
 | 2021.06.21 ~ 2021.06.27 | [PROGRAMMERS #순위](https://programmers.co.kr/learn/courses/30/lessons/49191/) |
+|5주차|
+| 2021.06.28 ~ 2021.07.04 | [PROGRAMMERS #K번째수](https://programmers.co.kr/learn/courses/30/lessons/42748) |
+| 2021.06.28 ~ 2021.07.04 | [PROGRAMMERS #가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746) |
+| 2021.06.28 ~ 2021.07.04 | [PROGRAMMERS #H-index](https://programmers.co.kr/learn/courses/30/lessons/42747) |
 
 
