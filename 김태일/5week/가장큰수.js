@@ -40,6 +40,7 @@ function solution(numbers) {
     } 
     else {
         // 4자리수 해결
+        // 문자 4번 쓰는것 repeat 쓰면됨
         const answer = numbers.sort((a, b) => {
             for (let i = 0; i < 4; i++) {
                 a += String(a)
