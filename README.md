@@ -24,6 +24,8 @@
 | Jeon won-jae | [won-jae](https://github.com/coriander345) | [won-jae](https://coriander345.github.io/) |
 | Kim Eun-hyuk | [Eun-hyuk](https://github.com/steel-hyuk) | [Eun-hyuk](https://velog.io/@steel_hyuk___2) |
 | Kim Min-jae | [Min-jae](https://github.com/minjman2659) | [Min-jae](https://www.notion.so/minjman2659/16d5cc5769c84f4aacb11952a3625dfc) |
+| Ji Yoon-woo | [Yoon-woo](https://github.com/unuuuuu) | [Yoon-woo](https://velog.io/@unuuuuu) |
+
 
 [스터디 노션](https://www.notion.so/loverduck97/Algorithm-Study-2d0c49b91c074f419830852c96306e6d)
 
