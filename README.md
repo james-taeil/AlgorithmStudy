@@ -81,5 +81,11 @@
 | 2021.06.28 ~ 2021.07.04 | [PROGRAMMERS #K번째수](https://programmers.co.kr/learn/courses/30/lessons/42748) |
 | 2021.06.28 ~ 2021.07.04 | [PROGRAMMERS #가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746) |
 | 2021.06.28 ~ 2021.07.04 | [PROGRAMMERS #H-index](https://programmers.co.kr/learn/courses/30/lessons/42747) |
+|6주차|
+| 2021.07.05 ~ 2021.07.11 | [PROGRAMMERS #타겟넘버](https://programmers.co.kr/learn/courses/30/lessons/43165) |
+| 2021.07.05 ~ 2021.07.11 | [PROGRAMMERS #네트워크](https://programmers.co.kr/learn/courses/30/lessons/43162) |
+| Advanced | [PROGRAMMERS #단어변환](https://programmers.co.kr/learn/courses/30/lessons/43163) |
+| Advanced | [PROGRAMMERS #여행경로](https://programmers.co.kr/learn/courses/30/lessons/43164) |
+
 
 
