@@ -2,11 +2,11 @@ function solution(n, computers) {
     var answer = 0;
     
     let queue = [];
-    queue.push(0);
     let check = Array(computers.length).fill(false);
     
     for (let j=0; j<computers.length; j++) {
         if (check[j] !== true){
+          queue.push(j);
           while(queue.length > 0) {        
             let road = queue.shift();
             check[road] = true;
@@ -15,7 +15,7 @@ function solution(n, computers) {
                 if (computers[road][i] === 1 && check[i] !== true)
                     queue.push(i);
             }
-          }  
+          }
            answer++;
         }
     }
