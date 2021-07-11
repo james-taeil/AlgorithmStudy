@@ -2,9 +2,9 @@ function solution(n, computers) {
     var answer = 0;
     
     let queue = [];
-    let check = Array(computers.length).fill(false);
+    let check = Array(n).fill(false);
     
-    for (let j=0; j<computers.length; j++) {
+    for (let j=0; j<n; j++) {
         if (check[j] !== true){
           queue.push(j);
           while(queue.length > 0) {        
@@ -16,7 +16,7 @@ function solution(n, computers) {
                     queue.push(i);
             }
           }
-           answer++;
+          answer++;
         }
     }
     return answer;
