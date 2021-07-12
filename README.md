@@ -86,6 +86,10 @@
 | 2021.07.05 ~ 2021.07.11 | [PROGRAMMERS #네트워크](https://programmers.co.kr/learn/courses/30/lessons/43162) |
 | Advanced | [PROGRAMMERS #단어변환](https://programmers.co.kr/learn/courses/30/lessons/43163) |
 | Advanced | [PROGRAMMERS #여행경로](https://programmers.co.kr/learn/courses/30/lessons/43164) |
+|7주차    주제 : 완전 탐색|
+| 2021.07.12 ~ 2021.07.19 | [PROGRAMMERS #모의고사](https://programmers.co.kr/learn/courses/30/lessons/42840) |
+| 2021.07.12 ~ 2021.07.19 | [PROGRAMMERS #소수찾기](https://programmers.co.kr/learn/courses/30/lessons/42839) |
+| 2021.07.12 ~ 2021.07.19 | [PROGRAMMERS #카펫](https://programmers.co.kr/learn/courses/30/lessons/42842) |
 
 
 
