@@ -23,7 +23,7 @@
 | Choi Dong-hyun | [Dong-hyun](https://github.com/aarDong-hyunon-93 ) | [아론](https://velog.io/@aaron_93) |
 | Jeon won-jae | [won-jae](https://github.com/coriander345) | [won-jae](https://coriander345.github.io/) |
 | Kim Eun-hyuk | [Eun-hyuk](https://github.com/steel-hyuk) | [Eun-hyuk](https://velog.io/@steel_hyuk___2) |
-| Kim Min-jae | [Min-jae](https://github.com/minjman2659) | [Min-jae](https://www.notion.so/minjman2659/16d5cc5769c84f4aacb11952a3625dfc) |
+| Kim Min-jae | [Min-jae](https://github.com/minjman2659) | [Min-jae] |
 | Ji Yun-woo | [Yun-woo](https://github.com/unuuuuu) | [Yun-woo](https://velog.io/@unuuuuu) |
 
 
