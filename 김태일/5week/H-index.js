@@ -6,7 +6,7 @@ function solution(citations) {
     citations.sort((a, b) => b - a)
 
     for (let el of citations) {
-        if (answer + 1 <= el) {
+        if (answer + 1 <= el) {ㄴ
             answer += 1;
         }
     }
