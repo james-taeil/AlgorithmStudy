@@ -24,8 +24,8 @@ function solution(str) {
 
   const list = new Set([]);
   for (let i = 0; i < str.length; i++) {
-    getPermutations(str.split(""), i + 1)
-      .map((ele) => ele.join(""))
+    getPermutations(str.split(""), i + 1) // ex) [[ '1', '2', '3' ],[ '1', '3', '2' ],[ '2', '1', '3' ],[ '2', '3', '1' ],[ '3', '1', '2' ],[ '3', '2', '1' ]]
+      .map((ele) => ele.join("")) // ['123',...]
       .map((ele) => Number(ele))
       .forEach((ele) => {
         list.add(ele);
