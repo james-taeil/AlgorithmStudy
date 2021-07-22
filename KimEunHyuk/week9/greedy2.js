@@ -32,7 +32,10 @@ function solution(name) {
     else { // 오른쪽으로 이동
         move -= countLCA;
     }
-    answer += move;
+    answer += move; // 한 쪽으로만 이동하는 경우.
+
+    // ABAAAAAAAABB 로 입력을 받는다면
+      // 오른쪽으로 한 칸 가서 바꾼 후 왼쪽으로 다시 가는 것이 이득.
     
     for (let i=0; i<name.length; i++){
         ascii[i] = name.charCodeAt(i);
