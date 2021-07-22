@@ -2,8 +2,37 @@ function solution(name) {
     let answer = 0;
     let ascii = [];
     
+    let leftCheckA = 0;
+    let countLCA = 0;
+    let rightCheckA = 0;
+    let countRCA = 0;
     let move = name.length-1;
-    answer += move; // Math.min(move, A가 불특정하게 있을 때 이동하는 수);
+    
+    while(true){
+        rightCheckA++;
+        if (name[rightCheckA] === 'A')
+            countRCA++;
+        else
+            break;
+    }
+    while(true){
+        leftCheckA--;
+        if (leftCheckA === -1){
+            leftCheckA = name.length - 1;
+        }
+        if (name[leftCheckA] === 'A')
+            countLCA++;
+        else
+            break;
+    }
+    
+    if (countLCA < countRCA) { // 왼쪽으로 이동
+        move -= countRCA;
+    }
+    else { // 오른쪽으로 이동
+        move -= countLCA;
+    }
+    answer += move;
     
     for (let i=0; i<name.length; i++){
         ascii[i] = name.charCodeAt(i);
