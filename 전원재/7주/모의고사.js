@@ -35,7 +35,7 @@ function solution(answers) {
         answer=[2,3]
     }
     
-     if(firstNum>thirdNum &&firstNum>secondNum){
+     if(firstNum>thirdNum &&firstNum>secondNum){ 
         answer=[1]
     }else if(firstNum<thirdNum &&thirdNum>secondNum){
         answer=[3]
