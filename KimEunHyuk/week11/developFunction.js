@@ -7,20 +7,24 @@ function solution(progresses, speeds) {
         return Math.ceil((100 - el) / speeds[idx++]);
     })
     
-    let count = 1;
-    let pre = progresses[0];
+    let count = 0;
     
     // 7 3 9
     // 5 10 1 1 20 1
-    for (let i=1; i<progresses.length; i++){
-        if (progresses[i-1] <= progresses[i] || i === progresses.length-1) {
-            pre = progresses[i];
-            answer.push(count);
+    let pre = 0;
+    
+    // 뒤에서부터 반복하면서 앞의 자리 수가 뒷 자리보다 작으면 전까지의 카운트(일수)를 푸시
+    // 배열의 길이-1 인덱스일 경우와 i가 0일 경우가 컨트롤 되지 않음
+    for (let i=progresses.length-1; i>=0; i--){
+        if (pre > progresses[i] || i === 0) {
+            // pre = progresses[i];
+            answer.unshift(count);
             count = 1;
         }
         else {
             count++;
         }
+        pre = progresses[i];
     }
     return answer;
 }
