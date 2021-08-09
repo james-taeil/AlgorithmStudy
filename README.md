@@ -24,7 +24,7 @@
 | Jeon won-jae | [won-jae](https://github.com/coriander345) | [won-jae](https://coriander345.github.io/) |
 | Kim Eun-hyuk | [Eun-hyuk](https://github.com/steel-hyuk) | [Eun-hyuk](https://velog.io/@steel_hyuk___2) |
 | Kim Min-jae | [Min-jae](https://github.com/minjman2659) | [Min-jae](https://github.com/minjman2659) |
-| Ji Yun-woo | [Yun-woo](https://github.com/unuuuuu) | [Yun-woo](https://velog.io/@unuuuuu) |
+
 
 
 [스터디 노션](https://www.notion.so/loverduck97/Algorithm-Study-2d0c49b91c074f419830852c96306e6d)
@@ -36,6 +36,12 @@
   - 문제 풀기
   - 코드 리뷰
   - 문제 풀이 Github 공유
+
+### 2021 8월 스터디 진행 및 주제 변경🥳
+  - 주마다 발표자 1명 선정 후 발표
+    - 발표자 주제를 기반으로 공부 및 핵심 개념 이해하기
+  - 발표 후 관련 주제 문제 풀기
+  - 알고리즘 2~3문제는 매주 풀기
 
 ### 스터디 진행👌
   - 알고리즘 이론 정리 공유
@@ -94,4 +100,13 @@
 | 2021.07.19 ~ 2021.07.25 | [PROGRAMMERS #체육복](https://programmers.co.kr/learn/courses/30/lessons/42862) |
 | 2021.07.19 ~ 2021.07.25 | [PROGRAMMERS #조이스틱](https://programmers.co.kr/learn/courses/30/lessons/42860) |
 | 2021.07.19 ~ 2021.07.25 | [PROGRAMMERS #큰 수 만들기](https://programmers.co.kr/learn/courses/30/lessons/42883) |
+|9주차|
+| 발표자 | 주제 |
+| Jeon won-jae | Heap Sort |
+| Kim Eun-hyuk | KMP 알고리즘 |
+| 2021.08.01 ~ 2021.08.07 | [PROGRAMMERS #124 나라의 숫자](https://programmers.co.kr/learn/courses/30/lessons/12899) |
+| 2021.08.01 ~ 2021.08.07 | [PROGRAMMERS #기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586) |
+
+
+
 
