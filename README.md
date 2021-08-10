@@ -106,7 +106,12 @@
 | Kim Eun-hyuk | KMP 알고리즘 |
 | 2021.08.01 ~ 2021.08.07 | [PROGRAMMERS #124 나라의 숫자](https://programmers.co.kr/learn/courses/30/lessons/12899) |
 | 2021.08.01 ~ 2021.08.07 | [PROGRAMMERS #기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586) |
-
+|10주차|
+| 발표자 | 주제 |
+| Kim Eun-hyuk | KMP 알고리즘 |
+| Kim Min-jae | 크루스칼 알고리즘 |
+| 2021.08.08 ~ 2021.08.14 | [PROGRAMMERS #짝지어 제거하기](https://programmers.co.kr/learn/courses/30/lessons/12973) |
+| 2021.08.08 ~ 2021.08.14 | [PROGRAMMERS #입국심사](https://programmers.co.kr/learn/courses/30/lessons/43238) |
 
 
 
