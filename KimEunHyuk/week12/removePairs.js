@@ -1,28 +1,27 @@
+// 시간초과 => 배열을 수정하는 방법 말고 새 배열에 추가하는 방법으로 해결해야할 듯.
 function solution(s)
 {
     var answer = -1;
-    // s를 배열로 쪼개기
+    // s의 문자를 담아줄 배열 선언
+    let arr = [];
     s = s.split('');
-    // 이전 값을 가지고 갈 변수 pre
-    let pre = s[0];
-    for (let i=1; i<s.length; i++){
-        // 이전 값과 현재 값이 다를 때
-        if (pre === s[i]){
-            // s배열에서 이전 값과 현재 값 제거
-            s = s.slice(0, i-1).concat(s.slice(i+1));
-            // s배열이 달라졌기 때문에 처음부터 시작
-            i=0;
-            pre = s[0];
-            continue;
+    
+    // 반복하면서 s의 값이 배열의 값과 같은지 비교
+    for (let i=0; i<s.length; i++){
+        // 같으면 제거
+        if (s[i] === arr[arr.length-1]){
+            arr.pop();
         }
-        // 반복이 넘어갈 때 이전 값 변경
-        pre = s[i];
+        // 다르면 입력
+        else {
+            arr.push(s[i]);
+        }
     }
-    // s 배열이 다 비워졌다면 1, 아니라면 0 리턴
-    if (s.length > 0){
+    if (arr.length > 0){
         answer = 0;
     }
-    else answer = 1;
-    
+    else {
+        answer = 1;
+    }
     return answer;
 }

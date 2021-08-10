@@ -1,3 +1,4 @@
+// LPS 배열 구하는 함수
 const makeTable = (pattern) => {
   let patternLength = pattern.length;
   let table = Array(patternLength);
@@ -16,6 +17,8 @@ const makeTable = (pattern) => {
   }
   return table;
 }
+// a b a c a a b a 
+// 0 0 1 0 1 1 2 3
 
 const KMP = (str, pattern) => {
   const table = makeTable(pattern);
@@ -24,7 +27,7 @@ const KMP = (str, pattern) => {
 
   let j = 0;
   for (let i=0; i<sLen; i++){
-    while(j > 0 && str[i] !== pattern[j]) {
+    if (j > 0 && str[i] !== pattern[j]) {
       j = table[j-1];
     }
     if (str[i] === pattern[j]) {
@@ -38,3 +41,4 @@ const KMP = (str, pattern) => {
     }
   }
 }
+// ababacabacaabacaaba
