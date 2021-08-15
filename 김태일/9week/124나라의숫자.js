@@ -13,12 +13,11 @@ function solution (n) {
     return answer;
 }
 
-const input = solution(1);
+const input = solution(15);
 console.log(input);
 
 
-// TODO 
-// ? 풀이 전략
+// TODO 풀이 전략
 /** 
 **  n = 1 ... return 1
 **  n = 2 ... return 2
